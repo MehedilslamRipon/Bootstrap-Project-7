@@ -58,12 +58,23 @@ body{
 }
 
 /*=========== 3. Progress ==========*/
-.progress-sec{
+.counting{
     background: #10c9c3;
+}
+.single-item-img img{
+    width: 40px;
+    height: 40px;
+}
+.single-item-info{
     color: #ffffff;
 }
-.progress-icon{
-    font-size: 3rem;
+.single-item-info h6{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.single-item-info p{
+    font-size: 12px;
 }
 /*=========== 4. Services ==========*/
 .load-more-btn{
@@ -89,12 +100,23 @@ body{
 .contact{
     background: #f5f5f5;
 }
-.form-btn{
-    width: 25%;
-    margin-top: 30px;
+.contact h2{
+    font-size: 30px;
 }
-
-/*=========== 8. Footer ==========*/
-footer{
-    background: #141414;
+.header-btn {
+    background: #10c9c3;
+    color: #ffffff;
+    border-radius: 0px;
+    width: 180px;
+    height: 55px;
+    font-size: 12px;
+    padding: 18px 0px;
+}
+@media only screen and (max-width: 576px){
+    .custom-small{
+        margin-bottom: 1rem;
+    }
+    .contact-form{
+        max-width: 450px;
+    }
 }
